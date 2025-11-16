@@ -6,24 +6,44 @@
 
 This project aims to detect fake news using advanced techniques in natural language processing and machine learning. Leveraging a robust tech stack, the system analyzes news articles to identify potentially misleading or fabricated information. Key features include real-time analysis, source verification, and credibility scoring, providing users with a reliable tool to navigate the complex landscape of online news and combat the spread of misinformation.
 
-## 📁 Project Structure
 
-```
-.
-└── FAKE_NEWS_DETECTION_USING_ML.ipynb
-```
 
-## 👥 Contributing
+## Models Used
 
-Contributions are welcome! Here's how you can help:
+Logistic Regression
 
-1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/vinayak-1508/fake_news_detection/blob/main/FAKE_NEWS_DETECTION_USING_ML.ipynb.git`
-3. **Create** a new branch: `git checkout -b feature/your-feature`
-4. **Commit** your changes: `git commit -am 'Add some feature'`
-5. **Push** to your branch: `git push origin feature/your-feature`
-6. **Open** a pull request
+Passive Aggressive Classifier
 
+Naive Bayes
+
+## Project Files
+
+FAKE_NEWS_DETECTION_USING_ML.ipynb – main notebook containing all steps
+
+dataset/ – folder containing the training/testing data
+
+## Requirements
+
+Python
+
+Jupyter Notebook
+
+pandas
+
+numpy
+
+scikit-learn
+
+## How to Run
+
+Open the notebook:
+FAKE_NEWS_DETECTION_USING_ML.ipynb
+
+Run all cells to train and test the models.
+
+## Output
+
+The notebook displays accuracy scores and predictions for fake or real news.
 Please ensure your code follows the project's style guidelines and includes tests where applicable.
 
 ---
